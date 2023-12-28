@@ -1,0 +1,115 @@
+.personal-interests {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	padding-left: 175px;
+}
+
+.interests, .skills, .contact {
+	width: 800px;
+}
+
+.personal-interests .skills, .personal-interests .contact {
+	margin-top: 86px;
+}
+
+.personal-interests .contact {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.personal-interests .skills, .personal-interests .contact {
+	margin-top: 86px;
+}
+
+.title {
+	font-size: 26.79px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.interest {
+	width: 266.67px;
+}
+
+.interest i {
+	width: 40px;
+}
+
+.interest i.fa-cauldron, i.fa-person-hiking {
+	font-size: 30px;
+}
+
+.interest i.fa-book, i.fa-dumbbell, i.fa-camera-polaroid {
+	font-size: 25px;
+}
+
+i.fa-code, i.fa-microphone-stand, .skill i {
+	font-size: 20px;
+}
+
+.fa-person-praying {
+	font-size: 22px;
+}
+
+.interest p, .skill p {
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	font-size: 15.12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.interests, .skills, .contact {
+	width: 800px;
+}
+
+.skill:first-child {
+	padding-left: 0;
+}
+
+.skill {
+	width: auto;
+	text-align: center;
+	justify-content: center;
+	margin-left: 5px;
+	color: #1e1e1e !important;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.skill p {
+	font-size: 13px;
+	margin-left: 5px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fa-mysql {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(/src/assets/img/mysql.svg);
+}
+
+.fa-postgresql {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(/src/assets/img/postgresql.svg);
+}
+
+.react {
+	padding-left: 0 !important;
+}
+
+.personal-interests .contact p {
+	margin: 0;
+}
+
+.dev-email {
+	color: #1e1e1e;
+}
