@@ -92,14 +92,14 @@ i.fa-code, i.fa-microphone-stand, .skill i {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: url(/src/assets/img/mysql.svg);
+	background: url(./img/mysql.svg);
 }
 
 .fa-postgresql {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: url(/src/assets/img/postgresql.svg);
+	background: url(./img/postgresql.svg);
 }
 
 .react {
