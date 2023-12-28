@@ -66,12 +66,12 @@ const Home = (props) => {
     }, [])
 
     return (
-        <div className="main-container" name={"Home"}>
+        <section className="main-container" name={"Home"}>
             <div className="container-fluid m-0 d-flex justify-content-center">
                 <Author />
                 <AuthorInterest author={props.author} />
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav/Nav'
 import Home from './Home'
+import History from '../components/History/History'
 
 const Index = () => {
     const contact = {
@@ -14,6 +15,7 @@ const Index = () => {
         <>
             <Nav />
             <Home author={contact} />
+            <History />
         </>
     )
 }
