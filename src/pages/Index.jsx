@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav/Nav'
 import Home from './Home'
-import History from '../components/History/History'
+import History from '../pages/History'
 
 const Index = () => {
     const contact = {

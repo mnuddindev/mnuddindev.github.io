@@ -1,0 +1,184 @@
+.timeline-dots {
+	height: 8px;
+	margin-top: 159px;
+	overflow: hidden;
+	position: relative;
+}
+
+.timeline-dot {
+	width: 8px;
+	background: #000;
+	margin-left: 4px;
+	border-radius: 100%;
+}
+
+.education {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.psc {
+	left: 95px;
+	z-index: 999999;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+}
+
+.psc, .jsc, .ssc, .hsc, .microsoft-course, .appifylab, .bkttc {
+	position: relative;
+	bottom: 36px;
+}
+
+.doing-icon {
+	height: 65px;
+	width: 65px;
+	background: #FA5D54;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999999;
+}
+
+.doing-icon i {
+	font-size: 25px;
+	color: #fff;
+	z-index: 9999999;
+}
+
+.long-line {
+	display: block;
+	width: 2px;
+	height: 246px;
+	background: #010101;
+	left: 30px;
+	position: relative;
+}
+
+.short-line {
+	position: relative;
+	background: #010101;
+	width: 2px;
+	height: 54px;
+	display: block;
+	left: 30px;
+	top: 13px;
+}
+
+.timeline-start {
+	position: relative;
+	right: 44px;
+	bottom: 41px;
+}
+
+.timeline-month {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.timeline-year {
+	margin-left: 4px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.timeline-end {
+	position: relative;
+	right: 44px;
+	bottom: 41px;
+}
+
+.timeline-start p, .timeline-end p {
+	padding: 0 !important;
+	margin-bottom: 0;
+}
+
+.details {
+	position: relative;
+	left: 45px;
+	bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	font-weight: 700;
+}
+
+.details p {
+	margin: 0;
+}
+
+.type {
+	position: relative;
+	bottom: 5px;
+}
+
+.institute {
+	position: relative;
+	bottom: 10px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.degree, .type, .institute {
+	font-size: 16px;
+}
+
+.jsc {
+	left: 238px;
+}
+
+.ssc {
+	left: 210px;
+	bottom: 114px;
+}
+
+.ssc span.long-line {
+	height: 90px;
+}
+
+.hsc {
+	left: 121px;
+	transform: scaleY(-1);
+	bottom: 464px;
+}
+
+.microsoft-course {
+	right: 43px;
+}
+
+.appifylab {
+	right: 50px;
+	transform: scaleY(-1);
+	bottom: 464px;
+}
+
+.bkttc {
+	right: 126px;
+}
+
+.hsc .timeline-start, .hsc .timeline-end, .appifylab .timeline-start, .appifylab .timeline-end {
+	transform: scaleY(-1);
+	backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.hsc .details, .appifylab .details {
+	transform: scaleY(-1);
+	backface-visibility: hidden;
+	bottom: 110px;
+}
+
+.hsc span.doing-icon i, .appifylab span.doing-icon i {
+	transform: scaleY(-1);
+	backface-visibility: hidden;
+	z-index: 9999999;
+}
+
+.job .doing-icon {
+	background: #4E5DD0;
+}

@@ -27,6 +27,7 @@
 	font-size: 26.79px;
 	font-weight: 600;
 	margin: 0;
+	opacity: 0;
 }
 
 .interest {
@@ -65,6 +66,10 @@ i.fa-code, i.fa-microphone-stand, .skill i {
 
 .interests, .skills, .contact {
 	width: 800px;
+}
+
+.personal-interests i, .iname, .contact p {
+	opacity: 0;
 }
 
 .skill:first-child {
