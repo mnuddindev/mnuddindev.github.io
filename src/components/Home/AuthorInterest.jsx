@@ -35,7 +35,7 @@ const AuthorInterest = (props) => {
                     {
                         Object.entries(interests).map(([key, value]) => {
                             return (
-                                <span className={key === "hiking" || "workout" || "coding" || "singing" ? "interest d-flex pt-15" : "interest d-flex"}>
+                                <span key={key} className={key === "hiking" || "workout" || "coding" || "singing" ? "interest d-flex pt-15" : "interest d-flex"}>
                                     <i className={"fa-duotone fa-" + value}></i>
                                     <p className="iname">{key}</p>
                                 </span>
