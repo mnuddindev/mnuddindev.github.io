@@ -179,6 +179,10 @@
 	z-index: 9999999;
 }
 
+.psc, .jsc, .ssc, .hsc, .microsoft-course, .appifylab, .bkttc {
+	opacity: 0;
+}
+
 .job .doing-icon {
 	background: #4E5DD0;
 }
